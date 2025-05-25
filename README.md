@@ -1,69 +1,43 @@
-Good
-🛒 Shopping Cart System
-A Java-based E-Commerce Simulation
-✨ Project Highlights
-🚀 Interactive Console Application
-📦 Real-World Shopping Experience
-💻 100% Pure Java
-🎯 Perfect for OOP Learning
+ShoppingCartApp
 
-🔍 Quick Overview
-This project simulates an online shopping experience with:
+A GUI-based shopping cart application built in Java using Swing. This application allows users to sign up, log in, browse products across categories (Electronics, Books, Clothing, Perfumes), add items to a cart, and complete a checkout process with a delivery address. User data is stored in a users.txt file, and product data is hardcoded in the application.
 
-Product catalog browsing
+Features
 
-Dynamic cart management
 
-Simple checkout process
 
-Clean, user-friendly console interface
 
-Ideal for:
-✔ College projects
-✔ Java learners
-✔ OOP concept demonstrators
 
-🛠️ Tech Stack
-Category	Technology
-Language	Java 8+
-IDE	IntelliJ/Eclipse
-Version Control	Git
-🚀 Getting Started
-📥 Installation
-Clone the repo:
+User Authentication: Sign up, log in, and reset password (simulated email reset).
 
-bash
-git clone https://github.com/Shivayyadav07/Shopping-cart.git  
-Navigate to project:
 
-bash
-cd Shopping-cart/src  
-⚡ Run the Application
-bash
-javac ShoppingCartApp.java  
-java ShoppingCartApp  
-🏗️ Project Structure
-Shopping-cart/  
-└── src/  
-    ├── ShoppingCartApp.java    # ← Main Driver Class  
-    ├── Product.java           # → Product Blueprint  
-    ├── Cart.java              # → Cart Operations  
-    └── User.java              # → User Management  
-🖥️ User Flow
-Launch application
 
-View product list
+Product Browsing: View products in categories with a tabbed interface.
 
-Add items to cart
 
-Manage cart contents
 
-Proceed to checkout
+Cart Management: Add products to the cart, remove items, and view the total with a discount (10% for orders over ₹5000).
 
-💡 Future Enhancements
-Add GUI (JavaFX/Swing)
 
-Integrate database support
 
-Implement payment gateway simulation
+Checkout: Select or enter a delivery address and confirm the order.
 
+
+
+File-Based Storage: User data (username, password, email, address) is stored in users.txt.
+ShoppingCartApp/
+├── src/
+│   └── ShoppingCartApp.java   # Main application file with all logic and UI                  # Generated file for user data storage
+└── README.md  
+
+Prerequisites
+
+
+
+
+
+Java Development Kit (JDK): Version 8 or higher (e.g., JDK 17).
+
+
+
+IDE: IntelliJ IDEA, Eclipse, or any Java IDE.
