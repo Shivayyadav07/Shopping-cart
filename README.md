@@ -27,7 +27,7 @@ Checkout: Select or enter a delivery address and confirm the order.
 File-Based Storage: User data (username, password, email, address) is stored in users.txt.
 ShoppingCartApp/
 ├── src/
-│   └── ShoppingCartApp.java   # Main application file with all logic and UI                  # Generated file for user data storage
+│   └── ShoppingCartApp.java  
 └── README.md  
 
 Prerequisites
