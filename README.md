@@ -1,4 +1,4 @@
-good
+Good
 🛒 Shopping Cart System
 A Java-based E-Commerce Simulation
 ✨ Project Highlights
